@@ -1,0 +1,38 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.9745747047402908 0.20803149123048753 0.08322886240238221 0.6977676988278363
+  position -0.12435691830586815 2.7656305745132346 2.414911940005098
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+E-puck {
+  translation 0.13 0 0
+  controller "EPuckAvoidCollision"
+}
+E-puck {
+  translation 0.23 0 0.1
+  name "e-puck(1)"
+  controller "EPuckAvoidCollision"
+}
+E-puck {
+  translation 0.33 0 0.2
+  name "e-puck(2)"
+  controller "EPuckAvoidCollision"
+}
+E-puck {
+  translation 0.43000000000000005 0 0.30000000000000004
+  name "e-puck(3)"
+  controller "EPuckAvoidCollision"
+}
+E-puck {
+  translation 0.53 0 0.4
+  name "e-puck(4)"
+  controller "EPuckAvoidCollision"
+}
+RectangleArena {
+  floorSize 3 3
+}
